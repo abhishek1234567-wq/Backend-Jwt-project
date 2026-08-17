@@ -5,7 +5,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://frontend-jwt-project.vercel.app/",
+    origin: "https://frontend-jwt-project.vercel.app",
     credentials: true,
   }),
 );
